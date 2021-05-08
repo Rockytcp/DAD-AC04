@@ -5,8 +5,8 @@ import flask
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(80), unique=True)
-    comment = db.Column(db.String(120))
-    username = db.Column(db.String(20))
+    username = db.Column(db.String(80), unique=True)
+    password = db.Column(db.String(120))
+    name = db.Column(db.String(20))
     email = db.Column(db.String(30))
     
