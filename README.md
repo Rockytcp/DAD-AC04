@@ -8,9 +8,9 @@ Marcelo Rodrigues -  RA 1903647 <br>
 Michael Junior de Lima Oliveira - RA 1904010 <br>
 
 
-COMANDOS PARA EXECUÇÃO:
-    - Todos os comandos devem ser feitos direto no terminal
-    - Instalar as dependências do projeto: pip install -r requirements.txt
-    - Inicializar o Banco de Dados: flask db init
-    - Atualizar o Banco de Dados com as Tabelas Criadas: flask db upgrade
-    - Inicializar o Sistema: flask run
+COMANDOS PARA EXECUÇÃO:<br>
+    - Todos os comandos devem ser feitos direto no terminal<br>
+    - Instalar as dependências do projeto: pip install -r requirements.txt<br>
+    - Inicializar o Banco de Dados: flask db init<br>
+    - Atualizar o Banco de Dados com as Tabelas Criadas: flask db upgrade<br>
+    - Inicializar o Sistema: flask run<br>
