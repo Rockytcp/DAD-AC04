@@ -10,7 +10,12 @@
         <div>
             Twitter:
             <a href="/index">Home</a>
+            <a href="/myposts">Posts</a>
+            {% if current_user.is_anonymous %}
             <a href="/login">Login</a>
+            {% else %}
+            <a href="/logout">Logout</a>
+            {% endif %}
         </div>
         <hr>
         {% with messages = get_flashed_messages() %}

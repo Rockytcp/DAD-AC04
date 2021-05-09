@@ -6,3 +6,11 @@ Gabriel Braganti Pessoa - RA 1904341 <br>
 Gustavo Braganti Pessoa - RA 1902194 <br>
 Marcelo Rodrigues -  RA 1903647 <br>
 Michael Junior de Lima Oliveira - RA 1904010 <br>
+
+
+COMANDOS PARA EXECUÇÃO:
+    - Todos os comandos devem ser feitos direto no terminal
+    - Instalar as dependências do projeto: pip install -r requirements.txt
+    - Inicializar o Banco de Dados: flask db init
+    - Atualizar o Banco de Dados com as Tabelas Criadas: flask db upgrade
+    - Inicializar o Sistema: flask run

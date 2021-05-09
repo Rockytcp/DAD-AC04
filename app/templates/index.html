@@ -1,10 +1,7 @@
 {% extends "base.html" %}
-<html> 
-  <head>
-    <title>Hello World</title> 
-  </head>
- 
-  <body> 
-    <h1>Hello World</h1> 
-  </body>
-</html>
+
+{% block content %}
+    <h1>Hello, {{ current_user.username }}!</h1><br>
+    <h1>Your name is {{current_user.name}}</h1><br>
+    <h1> Your email is {{current_user.email}}</h1>
+{% endblock %}
